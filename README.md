@@ -4,8 +4,9 @@
 ### Requirements
 
 - CPU must support Intel PKU. This includes Skylake Server architectures chips e.g. Xeon Scalable series.
-    - Note: Amazon's EC2 `c5.large` instance offers an easy way to access a PKU-caapable CPU.
+    - Note: Amazon's EC2 `c5.large` instance offers an easy way to access a PKU-capable CPU.
 - Linux kernel >= 4.9.0, compiled with PKU support enabled (e.g. recent Ubuntu or Debian).
+    - Tested with Debian 8 kernel 4.9: `sudo apt-get install linux-image-4.9.0-0.bpo.11-amd64 linux-headers-4.9.0-0.bpo.11-amd64`
 - docker
 
 ### Running
